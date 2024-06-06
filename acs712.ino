@@ -2,7 +2,7 @@
 long lastsample = 0;
 long Samplesum = 0;
 long Samplecount = 0;
-float vpc = (5.0 / 4095) * 1000; 
+float vpc = (3.3 / 4095) * 1000; 
 int sensor =35;
 void setup() {
   Serial.begin(9600);
